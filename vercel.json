@@ -1,0 +1,27 @@
+{
+  "rewrites": [
+    {
+      "source": "/servicios",
+      "destination": "/pages/servicios.html"
+    },
+    {
+      "source": "/productos",
+      "destination": "/pages/productos.html"
+    },
+    {
+      "source": "/contactanos",
+      "destination": "/pages/contacto.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}

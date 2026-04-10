@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistemasolgt | Servicios</title>
+    <meta
+      name="description"
+      content="Servicios, combos e implementacion comercial para Sistemasolgt."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+  </head>
+  <body data-page="servicios">
+    <header class="header">
+      <div class="top-strip">
+        <div class="container top-strip__inner">
+          <p>SisteSOLgt</p>
+          <a href="https://wa.me/50258103302?text=Hola,%20quiero%20informacion%20sobre%20Sistemasolgt" target="_blank" rel="noreferrer">Solicitar informacion</a>
+        </div>
+      </div>
+
+      <div class="container navbar navbar--clean">
+        <a class="brand" href="../index.html" aria-label="Inicio Sistemasolgt">
+          <img class="brand__image" src="../assets/img/LogoSol.jpeg" alt="Logo Sistemasolgt" />
+        </a>
+
+        <form class="searchbar" data-search-form action="productos.html">
+          <input type="text" placeholder="Buscar productos o servicios" aria-label="Buscar productos o servicios" />
+          <button type="submit">Buscar</button>
+        </form>
+
+        <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav nav--with-icons">
+          <a href="../index.html" data-link="inicio">Inicio</a>
+          <a href="servicios.html" data-link="servicios">Servicios</a>
+          <a href="productos.html" data-link="productos">Productos</a>
+          <a href="contacto.html" data-link="contacto">Contactanos</a>
+          <button class="cart-button" type="button" data-cart-toggle aria-label="Abrir carrito">
+            <span class="cart-button__icon">🛒</span>
+            <span class="cart-button__count" data-cart-count>0</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero__grid">
+          <div>
+            <h1>Combos y soluciones para tu necegocio</h1>
+            <p class="lead">
+              En esta seccion agrupamos los combos comerciales con una experiencia
+              visual mas parecida a catalogo, con acciones de ver detalle y agregar al carrito.
+            </p>
+          </div>
+          <div class="page-hero__panel page-hero__panel--image">
+            <img src="../assets/img/SeccionServicios.jpeg" alt="Seccion principal de servicios" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--white">
+        <div class="container">
+          <div class="products-toolbar">
+            <p class="products-status">Explora nuestros combos.</p>
+          </div>
+
+          <div class="services-catalog">
+            <article
+              class="catalog-card"
+              data-item-card
+              data-item-type="servicio"
+              data-item-id="combo-emprendedor"
+              data-item-name="Combo Emprendedor"
+              data-item-image="../assets/img/ImagendeInicio.jpeg"
+              data-item-price="7800"
+              data-item-description="Sistema para control de negocios con accesorios para comenzar a vender de inmediato."
+              data-item-specs="Licencia del sistema comercial|Caja de dinero mini|Lector de codigo de barras|Impresora termica 58mm"
+              data-item-includes="Caja de Dinero::../assets/img/CajadeDinero.jpeg|Lector de Codigo::../assets/img/LectorDeCodigo.jpeg|Impresora Termica::../assets/img/ImpresoraTermica.jpeg"
+              data-item-whatsapp="Hola,%20quiero%20informacion%20del%20Combo%20Emprendedor%20de%20Sistemasolgt"
+              data-search-text="combo emprendedor servicio sistema lector impresora caja"
+            >
+              <img src="../assets/img/ImagendeInicio.jpeg" alt="Combo Emprendedor" />
+              <div class="catalog-card__body">
+                <h3>Combo Emprendedor</h3>
+                <p class="catalog-card__price">Q7,800</p>
+                <p>Una opcion pensada para emprender con sistema, caja e impresion desde el primer dia.</p>
+              </div>
+              <div class="catalog-card__overlay">
+                <button type="button" class="overlay-btn" data-view-item>Ver</button>
+                <button type="button" class="overlay-btn overlay-btn--accent" data-add-item>Carrito</button>
+              </div>
+            </article>
+
+            <article
+              class="catalog-card"
+              data-item-card
+              data-item-type="servicio"
+              data-item-id="combo-gestion-total"
+              data-item-name="Combo Gestion Total"
+              data-item-image="../assets/img/ImagendeInicio.jpeg"
+              data-item-price="10000"
+              data-item-description="Solucion mas robusta para negocios que necesitan sistema comercial, accesorios y computadora lista para operar."
+              data-item-specs="Licencia del sistema comercial|Caja de dinero mini|Lector de codigo de barras|Impresora termica 58mm|Computadora de escritorio"
+              data-item-includes="Caja de Dinero::../assets/img/CajadeDinero.jpeg|Lector de Codigo::../assets/img/LectorDeCodigo.jpeg|Impresora Termica::../assets/img/ImpresoraTermica.jpeg|Computadora de Escritorio::../assets/img/ComputadoradeEscritorio.jpeg"
+              data-item-whatsapp="Hola,%20quiero%20informacion%20del%20Combo%20Gestion%20Total%20de%20Sistemasolgt"
+              data-search-text="combo gestion total servicio facturacion fel inventario clientes"
+            >
+              <img src="../assets/img/ImagendeInicio.jpeg" alt="Combo Gestion Total" />
+              <div class="catalog-card__body">
+                <h3>Combo Gestion Total</h3>
+                <p class="catalog-card__price">Q10,000</p>
+                <p>Ideal para negocios que quieren una solucion mas completa y una operacion mejor organizada.</p>
+              </div>
+              <div class="catalog-card__overlay">
+                <button type="button" class="overlay-btn" data-view-item>Ver</button>
+                <button type="button" class="overlay-btn overlay-btn--accent" data-add-item>Carrito</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--light">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Multidispositivo</p>
+            <h2>Nuestro sistema se puede visualizar y utilizar en computadoras y celulares</h2>
+          </div>
+          <div class="device-showcase">
+            <article class="device-showcase__item">
+              <img src="../assets/img/LaptopSol.jpeg" alt="Sistema en laptop" />
+              <div class="device-showcase__text">
+                <h3>Visualizacion en laptop</h3>
+                <p>Perfecto para administracion, reportes, ventas y control diario del negocio.</p>
+              </div>
+            </article>
+            <article class="device-showcase__item">
+              <img src="../assets/img/CelularSol.jpeg" alt="Sistema en celular" />
+              <div class="device-showcase__text">
+                <h3>Visualizacion en celular</h3>
+                <p>Facilita la consulta y operacion desde un dispositivo movil.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside class="cart-drawer" data-cart-drawer>
+      <div class="cart-drawer__header">
+        <h2>Carrito</h2>
+        <button type="button" data-cart-close aria-label="Cerrar carrito">×</button>
+      </div>
+      <div class="cart-drawer__body" data-cart-items>
+        <p class="cart-empty">Aun no has agregado productos o servicios.</p>
+      </div>
+      <div class="cart-drawer__summary" data-cart-summary></div>
+      <form class="checkout-form is-collapsed" data-checkout-form>
+        <h3>Simular compra</h3>
+        <label>
+          Metodo de pago
+          <select data-checkout-method>
+            <option value="tarjeta">Tarjeta</option>
+            <option value="transferencia">Transferencia</option>
+            <option value="contraentrega">Pago contra entrega</option>
+          </select>
+        </label>
+        <label>
+          Nombre del titular
+          <input type="text" data-checkout-name placeholder="Nombre completo" />
+        </label>
+        <label>
+          Numero de tarjeta
+          <input type="text" data-checkout-card placeholder="1234 5678 9012 3456" maxlength="19" />
+        </label>
+        <div class="checkout-form__grid">
+          <label>
+            Vencimiento
+            <input type="text" data-checkout-expiry placeholder="MM/AA" maxlength="5" />
+          </label>
+          <label>
+            CVV
+            <input type="text" data-checkout-cvv placeholder="123" maxlength="4" />
+          </label>
+        </div>
+        <button class="btn btn--primary btn--compact checkout-form__submit" type="submit">Finalizar compra simulada</button>
+        <p class="checkout-form__message" data-checkout-message></p>
+      </form>
+      <div class="cart-drawer__footer">
+        <button class="btn btn--secondary btn--compact" type="button" data-cart-clear>Vaciar</button>
+        <a class="btn btn--secondary btn--compact" data-cart-whatsapp href="https://wa.me/50258103302" target="_blank" rel="noreferrer">WhatsApp</a>
+      </div>
+    </aside>
+
+    <div class="modal" data-modal hidden>
+      <div class="modal__backdrop" data-modal-close></div>
+      <div class="modal__panel">
+        <button class="modal__close" type="button" data-modal-close aria-label="Cerrar">×</button>
+        <div class="modal__content" data-modal-content></div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container site-footer__grid">
+        <section class="site-footer__brand">
+          <img src="../assets/img/LogoTexto.jpeg" alt="Logo texto de Sistemasolgt" />
+          <p>Conecta con nosotros:</p>
+          <div class="site-footer__socials">
+            <a href="https://www.facebook.com/share/1CY5VsMAhw/?mibextid=wwXIfr" target="_blank" rel="noreferrer" aria-label="Facebook">
+              <img src="../assets/img/IconoFaceboock.jpeg" alt="Facebook" />
+            </a>
+            <a href="https://www.tiktok.com/@sistemasolgt" target="_blank" rel="noreferrer" aria-label="TikTok">
+              <img src="../assets/img/IconoTiktok.jpeg" alt="TikTok" />
+            </a>
+          </div>
+        </section>
+
+        <section>
+          <h3>Tiendas</h3>
+          <p>Guatemala, Zona 6</p>
+        </section>
+
+        <section>
+          <h3>Soporte</h3>
+          <p>Soporte tecnico</p>
+        </section>
+
+        <section>
+          <h3>Informacion</h3>
+          <a href="mailto:manuelalexandermonzonpalma@gmail.com">manuelalexandermonzonpalma@gmail.com</a>
+          <a href="tel:+50258103302">+502 58103302</a>
+        </section>
+      </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+  </body>
+</html>
